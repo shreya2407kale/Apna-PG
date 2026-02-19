@@ -2,6 +2,21 @@
 
 A production-ready web platform for finding and booking PGs (Paying Guest accommodations) and one-day stays in India. Designed for students, teachers, and working professionals.
 
+## 🚨 IMPORTANT: Authentication System (FIXED!)
+
+**Status**: ✅ **FIXED - Registration Now Works!**
+
+- **Previous Issue**: Firebase-based auth was failing with generic "Registration failed" error
+- **Current Solution**: MongoDB + Express + JWT backend authentication
+- **Real Error Messages**: Now shows specific validation errors
+- **Security**: Industry-standard bcrypt password hashing
+
+👉 **Quick Start**: Read [QUICK_START_AUTHENTICATION.md](QUICK_START_AUTHENTICATION.md) (5 minutes)
+👉 **Full Guide**: Read [AUTHENTICATION_GUIDE.md](AUTHENTICATION_GUIDE.md) (detailed info)
+👉 **MongoDB Setup**: Read [MONGODB_SETUP.md](MONGODB_SETUP.md) (if you need MongoDB Atlas)
+
+---
+
 ## ✨ Key Features
 
 ### Core Functionality
@@ -29,7 +44,7 @@ A production-ready web platform for finding and booking PGs (Paying Guest accomm
 ### Backend
 - **Node.js** - Runtime
 - **Express.js** - REST API Framework
-- **MongoDB** - Database
+- **MongoDB** - Database (using MongoDB Atlas - FREE)
 - **Mongoose** - ODM
 - **JWT** - Authentication
 - **bcryptjs** - Password hashing
@@ -44,7 +59,7 @@ A production-ready web platform for finding and booking PGs (Paying Guest accomm
 ### Deployment Ready
 - **Backend**: Render, Railway, Heroku
 - **Frontend**: Netlify, Vercel, AWS S3
-- **Database**: MongoDB Atlas
+- **Database**: MongoDB Atlas (FREE M0 tier)
 
 ---
 
